@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modul 1 dan 2</title>
+  </head>
+  <body>
+    <!-- Kegiatan Pembelajaran 1  -->
+    <h1>Mari Belajar HTML</h1>
+    <h2>Mari Belajar HTML</h2>
+    <h3>Mari Belajar HTML</h3>
+    <h4>Mari Belajar HTML</h4>
+    <h5>Mari Belajar HTML</h5>
+    <h6>Mari Belajar HTML</h6>
+
+    <br>
+    <br> 
+<!--  digunakan untuk menambah space ke bawah (enter) -->
+    <hr> 
+<!-- digunakan untuk menampilkan garis horizontal -->
+    
+<!-- paragraph -->
+    <h3 align="center">Pembukaan UUD 1945</h3>
+<!-- "align" digunakan untuk menentukan perataan teks (center/left/right) -->
+    <p>
+      Bahwa sesungguhnya kemerdekaan itu ialah hak segala bangsa dan
+      oleh sebab itu, maka penjajahan diatas dunia harus dihapuskan
+      karena tidak sesuai dengan perikemanusiaan dan perikeadilan.
+    </p>
+
+    <p>
+      	Dan perjuangan pergerakan kemerdekaan Indonesia 
+telah sampailah kepada saat yang berbahagia dengan selamat sentosa mengantarkan
+      	rakyat Indonesia ke depan pintu gerbang kemerdekaan negara
+      	Indonesia, yang merdeka, bersatu, berdaulat, adil dan makmur.
+    </p>
+
+    <p>
+Atas berkat rahmat Allah Yang Maha Kuasa dan dengan didorongkan oleh keinginan luhur, 
+supaya berkehidupan kebangsaan yang bebas, 
+maka rakyat Indonesia menyatakan dengan ini kemerdekaannya.
+    </p>
+  </body>
+
+  <!-- Kegiatan Pembelajaran 2 -->
+
+    <ul>
+      <!-- Format Tebal  -->
+      <li>
+        <b>Ini adalah Format Tebal</b>
+      </li>
+      <!-- Format Miring  -->
+      <li>
+        <i>Ini adalah Format Miring</i>
+      </li>
+      <!-- Format Garis Bawah  -->
+      <li>
+        <u>Ini adalah Format Garis Bawah</u>
+      </li>
+      <!-- Format Superscript Text  -->
+      <li>
+        Ini adalah format pangkat x<sup>2</sup> + y <sup>3</sup> = 15
+      </li>
+      <!-- Format Subscript Text  -->
+      <li>
+        H<sub>2</sub>O<sub>3</sub>
+      </li>
+      <!-- Format Highligh  -->
+      <li>
+        <mark>Coding itu mudah</mark>
+      </li>
+      <!-- Format Coret  -->
+      <li>
+        Pemrograman Web itu <del>sulit</del> mudah
+      </li>
+    </ul>
+  </body>
+
+<!-- Kegiatan Pembelajaran 3 -->
+   <!-- Ordered List Angka  -->
+   <h3>List Menggunakan Urutan</h3>
+   <h4>Urutan Angka</h4>
+   <ol type="1">
+     <li>abadan</li>
+     <li>abidin</li>
+     <li>abeden</li>
+     <li>abudun</li>
+     <li>abodon</li>
+     <li>ucup</li>
+   </ol>
+
+   <h4>Urutan Abjad</h4>
+   <ol type="A">
+     <li>Naswa</li>
+     <li>Sepil</li>
+     <li>Icha</li>
+     <li>Sada</li>
+     <li>Meme</li>
+     <li>epa</li>
+   </ol>
+
+   <h4>Urutan Romawi</h4>
+   <ol type="I">
+     <li>Edy</li>
+     <li>Ifa</li>
+     <li>Raka</li>
+     <li>Indira</li>
+     <li>Sulikah</li>
+     <li>Antik</li>
+   </ol>
+
+   <h3>List Tak Berurutan</h3>
+   <ul>
+     <li>alip</li>
+     <li>ucup</li>
+     <li>jokowi</li>
+     <li>maaruf amin</li>
+     <li>elang</li>
+     <li>sepil</li>
+   </ul>
+ </body>
+
+ <!-- Kegiatan Pembelajaran 4 -->
+ <h3> Single picture </h3>
+ <img src="c:\Users\indir\Downloads\Stitch.jpeg" width ="200" height "200" alt="stich"
+ 
+<br>
+ 
+ <br>
+
+ <h4> Picture With Text </h4>
+ <p><img src="c:\Users\indir\Downloads\Stitch.jpeg" width="100" height="100" align="left" hspace="20" alt="stich">
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  It has survived not only five centuries, but also the leap into electronic typesetting,
+  remaining essentially unchanged. It was popularised in the 1960s with the release of
+  Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+  software like Aldus PageMaker including versions of Lorem Ipsum.
+  
+  <!--
+    "align=left" digunakan untuk menenpatkan gambar di sebelah sisi kiri teks
+    "hspace" digunakan untuk mengatur space gambar dan text secara horizontal
+    "vspace" digunakan untuk mengatur space gambar dan text secara vertikal -->
+
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- Masukin Audio dan Video -->
+<body>
+  <h3>Audio</h3>
+  <audio controls>
+    <source src="c:\Users\indir\OneDrive\Dokumen\XI HTML\hantu mp3.mp3" type="audio/mp3">
+</audio>
+<h3>Video</h3>
+<video controls>
+  <source src="c:\Users\indir\OneDrive\Dokumen\video web.mov" type="video/mp4">
+
+</video>
+</body>
+<!-- Kegiatan Pembelajaran 5-->
+<body>
+  <h3>Tabel Materi Pemrogrman Web</h3>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama Pelajaran</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Science</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Math</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Civic</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Social</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>English</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+ 
+<br>
+<!--Kegiatan Pembelajaran 6-->
+
+<body>
+
+  <!-- Membuat Tabel dengan colspan  -->
+  <h3>Timeline Table</h3>
+  <table width="60%" border="1" cellpadding="4" style="border-collapse:collapse">
+    <thead>
+      <tr>
+        <th rowspan="2">Nama</th>
+        <th colspan="4">Timeline</th>
+      </tr>
+      <tr>
+        <th>Minggu ke-1</th>
+        <th>Minggu ke-2</th>
+        <th>Minggu ke-3</th>
+        <th>Minggu ke-4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Salman Al Farisi</td>
+        <td colspan="3" align="center">Belajar HTML</td>
+        <td>Belajar CSS</td>
+      </tr>
+      <tr>
+        <td>Siti Aminah</td>
+        <td colspan="2" align="center">Belajar HTML</td>
+        <td colspan="2" align="center">Belajar CSS</td>
+      </tr>
+      <tr>
+        <td>Zahrotul Aisyah</td>
+        <td>Belajar HTML</td>
+        <td colspan="3" align="center">Belajar CSS</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+<!-- Kegiatan Pembelajaran 7-->
+<body>
+  <!-- Membuat tabel dengan rowspan  -->
+  <h3>Tugas Telkom</h3>
+  <table width="50%" border="1" cellpadding="5px" style="border-collapse:collapse;">
+    <!-- width = "50%" adalah size tabel yang berukuran 50% dari lebar layar
+    cellpadding digunakan untuk memberikan space antara border cell dan teks didalamnya
+    border-collapse digunakan untuk menyatukan border antar cell -->
+    <thead>
+      <tr>
+        <th width="30%">Nama Mata Pelajaran</th> <!-- kolom ini berukuran 30% dari ukuran tabel -->
+        <th width="70%">Tugas</th> <!-- kolom ini berukuran 70% dari ukuran tabel -->
+      </tr>
+    </thead>
+    <body>
+      <!-- IPA -->
+      <tr>
+        <td rowspan="4">IPA</td>
+        <td>Menanam Padi</td>
+      </tr>
+      <tr>
+        <td>Mengobservasi Padi</td>
+      </tr>
+      <tr>
+        <td>Membuat Makalah</td>
+      </tr>
+      <tr>
+        <td>Mempresentasikan ke depan</td>
+      </tr>
+      <!-- MTK  -->
+      <tr>
+        <td rowspan="3">MTK</td>
+        <td> Tugas sin cos tan</td>
+      </tr>
+      <tr>
+        <td>Tugas Phytagoras</td>
+      </tr>
+      <tr>
+        <td>Tgas penyederhanaan bilangan</td>
+      </tr>
+    </body>
+  </table>
+</body>
+
+
+</html>
